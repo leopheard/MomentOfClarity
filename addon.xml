@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.momentofclarity"
+	name="Moment of Clarity"
+	version="1.0.0"
+	provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Moment Of Clarity</summary>
+    <description lang="en">Hi, I’m comedian-slash-activist-slash-writer-slash-arsehole Lee Camp. You might know me as the guy who got banned from Fox News. I’ve created a webseries called “Moment of Clarity.” You’re going to like it. It’s a 3 to 5-minute video rant that comes out 3 times per week. They’re written, presented, filmed, directed, and edited by me on a shitty laptop. They cover everything from my hatred of happy people to my hatred of apathy. But mainly MOC serves as a documentation of the corporate takeover of America – with jokes. It’s a comedic confrontation that thrusts my illosophy at you in manageable bursts. It’s a breath of fresh aware. …Get it? Aware? …I’m still not sure you got it.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <forum></forum>
+    <source>https://github.com/leopheard/momentofclarity.git</source>
+    <website>https://leecamp.com/moment-of-clarity/</website>
+    <email>leopheard@gmail.com</email>
+    <license>The MIT License (MIT)</license>
+	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screen1.jpg</screenshot>
+			<screenshot>resources/media/screen1.png</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
